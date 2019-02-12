@@ -11,7 +11,7 @@ public class EmployeeTest {
         empobj.setAge(34);
        /* empobj.setSalary(20000.00);*/
 
-        empobj.printEmployeeInfo();
+        empobj.printEmployeeInfo();  
 
     }
 }
