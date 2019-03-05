@@ -3,7 +3,7 @@ public class StringNormalization {
 
     public static void main(String[] args) {
 
-        String s = "My  Name is @$$H0le";
+        String s = "My  Name is N@r3$H";
 
 
 
