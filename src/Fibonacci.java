@@ -12,7 +12,7 @@ public class Fibonacci {
          System.out.println("Fibonacci series upto " + number +" numbers : ");
          //printing Fibonacci series upto number
          for(int i=1; i<=number; i++){
-             System.out.print(fibonacciCal(i) +" ");
+             System.out.print(fibonacciRecursion(i) +" ");
          }
         }
     
@@ -39,7 +39,7 @@ public class Fibonacci {
                 return 1;
             }
 
-            return fibonacci(number-1) + fibonacci(number -2); //tail recursion
+            return fibonacciRecursion(number-1) + fibonacciRecursion(number -2); //tail recursion
         }
 
         
