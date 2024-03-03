@@ -4,10 +4,10 @@
 
 // This method leverages the StringBuilder class, which is mutable and allows for efficient character manipulation. Here's the code:
 
-
 public static String reverseString(String str) {
   return new StringBuilder(str).reverse().toString();
 }
+
 // Explanation:
 
 // We create a new StringBuilder object from the input string.
